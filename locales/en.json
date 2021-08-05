@@ -1,0 +1,65 @@
+{
+    "auth": {
+        "Splash_SubTitle": "Hey there.",
+        "Splash_Title": "Welcome !",
+        "Splash_Text": "The best way to predict the future is to create it ! Brighten your Future with good dicisions. Tawjeeh was created to offer you all the informations you would need to WISELY DECIDE ",
+        "Login_Success_alert": "Success!, Login Successfully!",
+        "Login_Failed_alert": "Failed!!",
+        "Login_Page_Title": "Welcome to Tawjeeh",
+        "input_text_Email": "Email Adress",
+        "input_text_Password": "Password",
+        "login_ForgotPass": "Forgot Password?",
+        "login_Qst": "Don’t have an Account?",
+        "login_button":"Sign In",
+        "login_signUp": "Sign Up",
+        "register_Success": "Success!,Your account has been created",
+        "register_Failed": "Failed !!",
+        "register_Page_Title":"Create new account",
+        "register_input_text_UserName": "User name",
+        "register_input_text_Email": "Email address (ex: user@email.com)",
+        "register_input_text_Tel": "Telephone number (ex: 06 00 00 00 00)",
+        "register_input_text_Password": "Password (at least 8 characters)",
+        "register_button":"Create Account",
+        "register_Qst": "Have an Account?",
+        "register_signUp": "Sign In"
+    },
+    "interests":{
+        "interests_Page_Title":"Choose your Interests.",
+        "bourses":"Scholarships",
+        "concours":"Competitions",
+        "autres":"Other interests",
+        "interests_button":"Submit",
+        "interestes_success_alert":"Success!,Your interestes have been updated",
+        "interestes_warning_alert":"IMPORTANT!,You need to choose at lest one interest,"
+
+    },
+    "home":{
+        "backAction" :"Hold on!, Are you sure you want to exit this app?",
+        "backAction_cancel":"cancel",
+        "backAction_yes":"Yes",
+        "recent_news" :"Recent News",
+        "tags_bources":"Scholarships",
+        "tags_concours":"Competitions",
+        "tags_events":"Events",
+        "tags_all":"All"
+    },
+    "profile":{
+        "page_name":"Profile",
+        "profile_interests":"Interests",
+        "profile_updateProfil":"Edit profile",
+        "profile_updatePass":"Edit password",
+        "logOut":"Log out",
+        "profile_button":"Save changes"
+    },
+    "permissions":{
+        "permissions_See_Profile":"See profile",
+        "permissions_home":"Home",
+        "permissions_settings":"settings",
+        "permissions_help":"Help",
+        "permissions_language":"Language",
+        "permissions_Notif_Settings":"Notification Settings",
+        "permissions_Help&Support":"Help and Support",
+        "permissions_Terms":"Terms and Conditions"
+    }
+
+}
