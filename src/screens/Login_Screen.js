@@ -346,7 +346,7 @@ class Login_Screen extends Component {
                         </View>
                         <View style={styles.dont_have_acc_Container}>
                             <Text style={styles.dont_have_acc_Text}>Vous n'avez pas de compte ?
-                                <Text style={{ color: '#08AA41', textDecorationLine: 'underline' }}
+                                <Text style={{ color: '#FF7F4F', textDecorationLine: 'underline' }}
                                     onPress={() => this.props.navigation.navigate('Register_Screen')} > S'inscrire </Text>
                             </Text>
                         </View>
@@ -381,7 +381,7 @@ const styles = StyleSheet.create({
         lineHeight: 21,
         letterSpacing: 1,
         textAlign: 'right',
-        color: '#08AA41',
+        color: '#FF7F4F',
         // fontWeight: "500",
 
     },
@@ -436,10 +436,10 @@ const styles = StyleSheet.create({
         elevation: 2
     },
     buttonOpen: {
-        backgroundColor: "#08AA41",
+        backgroundColor: "#FF7F4F",
     },
     buttonClose: {
-        backgroundColor: "#08AA41",
+        backgroundColor: "#FF7F4F",
     },
     textStyle: {
         fontFamily: 'Product Sans',

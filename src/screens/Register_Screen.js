@@ -183,7 +183,7 @@ class Register_Screen extends Component {
                                 <Dynamic_Button title='Créer le compte' onPress={() => this.handleSubmit()} isLoading={this.props.isLoading} />
                             </View>
                             <View style={styles.have_acc_Container}>
-                                <Text style={styles.have_acc_Text}>Avoir un compte? <Text style={{ color: '#08AA41', textDecorationLine: 'underline' }}
+                                <Text style={styles.have_acc_Text}>Avoir un compte? <Text style={{ color: '#FF7F4F', textDecorationLine: 'underline' }}
                                     onPress={() => this.props.navigation.navigate('Login_Screen')} >S'identifier</Text> </Text>
                             </View>
                         </View>
@@ -253,10 +253,10 @@ const styles = StyleSheet.create({
         elevation: 2
     },
     buttonOpen: {
-        backgroundColor: "#08AA41",
+        backgroundColor: "#FF7F4F",
     },
     buttonClose: {
-        backgroundColor: "#08AA41",
+        backgroundColor: "#FF7F4F",
     },
     textStyle: {
         fontFamily: 'Product Sans',

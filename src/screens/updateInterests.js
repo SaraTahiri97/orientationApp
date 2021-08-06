@@ -109,7 +109,7 @@ class Interests extends Component {
                         <View style={styles.checkBox_View}>
                             <TouchableOpacity style={styles.check_Box}
                                 onPress={() => this.props.checkBourse(!this.props.Boursechecked)}>
-                                {this.props.Boursechecked ? <Icon name='checkmark' size={24} color='#08AA41' /> : undefined
+                                {this.props.Boursechecked ? <Icon name='checkmark' size={24} color='#FF7F4F' /> : undefined
                                 }
                             </TouchableOpacity>
                             <Text style={{ fontSize: 20,fontFamily: 'Product Sans' }}>Bourse</Text>
@@ -122,7 +122,7 @@ class Interests extends Component {
                         <View style={styles.checkBox_View}>
                             <TouchableOpacity style={styles.check_Box}
                                 onPress={() => this.props.checkConcours(!this.props.Concourschecked)}>
-                                {this.props.Concourschecked ? <Icon name='checkmark' size={24} color='#08AA41' /> : undefined
+                                {this.props.Concourschecked ? <Icon name='checkmark' size={24} color='#FF7F4F' /> : undefined
                                 }
                             </TouchableOpacity>
                             <Text style={{ fontSize: 20,fontFamily: 'Product Sans' }}>Concours</Text>
@@ -136,7 +136,7 @@ class Interests extends Component {
                         <View style={styles.checkBox_View}>
                             <TouchableOpacity style={styles.check_Box}
                                 onPress={() => this.props.checkAutres(!this.props.Autreschecked)}>
-                                {this.props.Autreschecked ? <Icon name='checkmark' size={24} color='#08AA41' /> : undefined
+                                {this.props.Autreschecked ? <Icon name='checkmark' size={24} color='#FF7F4F' /> : undefined
                                 }
                             </TouchableOpacity>
                             <Text style={{ fontSize: 20, fontFamily: 'Product Sans',}}>Autres intérêts </Text>
@@ -205,7 +205,7 @@ const styles = StyleSheet.create({
         height: '100%',
         borderRadius: 2,
         borderWidth: 0.5,
-        borderColor: '#08AA41',
+        borderColor: '#FF7F4F',
         marginHorizontal: '2%'
     }
 

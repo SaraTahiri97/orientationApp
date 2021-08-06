@@ -125,13 +125,13 @@ const styles = StyleSheet.create({
         flex: 1,
         width: '100%',
         height: 'auto',
-        top: '4%',
+        top: '2%',
     },
     Latest_news_View: {
         width: '60%',
         height: 'auto',
-        left: '10%',
-        top: '3%',
+        left: '9%',
+        top: '1%',
         marginBottom: '7%',
         position: 'relative',
 

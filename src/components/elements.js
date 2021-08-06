@@ -84,10 +84,10 @@ export const Feed_Item = ({ navigation, Item_Image, Item_Title, Item_Subtitle, I
     <>
       {isRecommened ?
         <View style={{ width: "95%", }}>
-          <Text style={{ color: 'rgb(131, 212, 117)', }}>Rocommandé</Text>
+          <Text style={{ color: '#FF7F4F', }}>Rocommandé</Text>
         </View>
         : null}
-      <View style={[styles.Feed_Item_View, isRecommened ? { borderLeftWidth: 5, borderLeftColor: '#F3FFE5' } :
+      <View style={[styles.Feed_Item_View, isRecommened ? { borderLeftWidth: 5, borderLeftColor: '#FFCBA4' } :
         { backgroundColor: 'white' }]} onPress={() => navigation.navigate('Single_Article_Screen', id)}>
 
         <Image style={styles.Feed_Item_Image} source={{ uri: link }} />
@@ -139,7 +139,7 @@ export class Feed_Flatlist extends Component {
 
     return (
 
-      <View style={{ position: 'relative', top: '1%', left: '10%', width: '85%' }}>
+      <View style={{ position: 'relative', top: -5, left: '10%', width: '85%' }}>
         <FlatList
           style={{ paddingBottom: 10 }}
           data={this._finalData}
@@ -322,7 +322,7 @@ export const Page_Title = ({ Page_Title, login }) => {
 
   return (
     <View style={styles.Page_Title_Container}>
-      <Text style={styles.Page_Title}>{Page_Title}{login ? <Text style={{ fontSize: 36, color: '#08AA41' }}>.</Text> : undefined}
+      <Text style={styles.Page_Title}>{Page_Title}{login ? <Text style={{ fontSize: 36, color: '#FF7F4F' }}>.</Text> : undefined}
       </Text>
     </View>
   )
@@ -355,7 +355,7 @@ export const Setting_Item_With_Plus = ({ navigation, text, screen, slectedLangua
 
         <Icon name='md-add-sharp'
           size={22}
-          color='#08AA41' />
+          color='#FF7F4F' />
         <Text style={styles.Sitting_Plus_icon_Text}> {slectedLanguage} </Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.Sitting_Item_icon} onPress={() => navigation.navigate(screen)}>
@@ -447,7 +447,7 @@ export const Setting_Notification = ({ permission, checkPermission, updatePermis
     <View style={styles.Sitting_Item_Container}>
       <Text style={{ fontFamily: 'Product Sans' }}>{permission.name}</Text>
       <Switch value={permission.isChecked} onValueChange={onToggleSwitch}
-        color="#08AA41" />
+        color="#FF7F4F" />
     </View>
   )
 }
@@ -463,7 +463,7 @@ export const Select_Language = ({ language, flag, isSelected, selectLanguage }) 
       </View>
       {
         isSelected ?
-          <Checkbox status='checked' color="#08AA41" style />
+          <Checkbox status='checked' color="#FF7F4F" style />
           : undefined}
 
     </TouchableOpacity>
@@ -507,7 +507,7 @@ export const Interest_Item = ({ interests, onBtnClick }) => {
           marginTop: '2%',
 
         },
-        interest.ischosen ? { backgroundColor: '#08AA41' } : { backgroundColor: 'white' }
+        interest.ischosen ? { backgroundColor: '#FF7F4F' } : { backgroundColor: 'white' }
 
         ]}
           onPress={ /* alert(interest.name+'--'+interest.ischosen), */
@@ -641,7 +641,7 @@ const styles = StyleSheet.create({
     color: 'red'
   },
   News_Item_sublink: {
-    color: "rgb(131, 212, 117)",
+    color: "#FF7F4F",
 
   },
   /******************Feed_Item******************/
@@ -680,7 +680,7 @@ const styles = StyleSheet.create({
     top: "10%",
   },
   Feed_Item_sublink: {
-    color: "rgb(131, 212, 117)"
+    color: "#FF7F4F"
   },
   /******************Notification item style**********************/
   Notif_Item_View: {
@@ -741,12 +741,12 @@ const styles = StyleSheet.create({
   Splash_SubTitle: {
     fontSize: 20,
     fontFamily: 'Product Sans',
-    color: "rgb(14, 204, 73)",
+    color: "#FF7F4F",
   },
   Splash_Title: {
     fontSize: 50,
     fontFamily: 'Product Sans bold',
-    color: "rgb(14, 204, 73)",
+    color: "#FF7F4F",
 /*         whiteSpace: 'inherit',
  */      },
   Splash_Image_Container: {
@@ -804,7 +804,7 @@ const styles = StyleSheet.create({
     height: '100%',
     width: '100%',
     borderRadius: 16,
-    backgroundColor: "#08AA41",
+    backgroundColor: "#FF7F4F",
     justifyContent: 'center',
     alignItems: 'center'
   },

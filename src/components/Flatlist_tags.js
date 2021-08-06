@@ -14,7 +14,7 @@ const Flatlist_tags = ({ data, displayCorrespondedFeeds, navigation,selectedItem
 
     if (data && data.length) {
         return (
-            <View style={{ width: '90%', position: 'relative', left: '10%', height: 'auto', flexGrow: 1, }} >
+            <View style={{ width: '90%', position: 'relative', left: '10%', height: 'auto', flexGrow: 1 }} >
                 <FlatList
                     data={data}
                     ref={mySlidetags}
@@ -41,7 +41,7 @@ const Flatlist_tags = ({ data, displayCorrespondedFeeds, navigation,selectedItem
 
 const styles = StyleSheet.create({
     selectedBar: {
-        backgroundColor: 'rgb(131, 212, 117)',
+        backgroundColor: '#FF7F4F',
         height: 4,
         width: 30,
         borderRadius: 2.5,

@@ -42,7 +42,7 @@ const Carousel = ({ data, navigation, handleBookmark }) => {
 
     if (data && data.length) {
         return (
-            <View style={{ position: 'relative', top: '2%', width: width,}} >
+            <View style={{ position: 'relative', top: '1%', width: width,}} >
                 <View style={[styles.View, { right: '95%', }]}>
                     <LinearGradient
                         colors={['rgba(0,0,0,0.8)', 'transparent']}

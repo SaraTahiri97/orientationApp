@@ -170,7 +170,7 @@ class FBSearchBar extends React.Component {
                                 <View style={{ backgroundColor: 'black', height: 2, width: 20, margin: 2, }}></View>
                             </TouchableOpacity>
 
-                            <Text style={styles.Default_Title}>Tawjeeh<Text style={{ fontSize: 36, color: '#08AA41' }}>.</Text></Text>
+                            <Text style={styles.Default_Title}>Orientation<Text style={{ fontSize: 36, color: '#FF7F4F' }}>.</Text></Text>
 
                             <TouchableHighlight
                                 activeOpacity={1}
