@@ -14,8 +14,7 @@ link to backend :
 
 # App Architecture
 
-
-<img src="" width="200" >
+<img src="https://user-images.githubusercontent.com/32685586/128605065-3b2ae82a-54e2-4909-8925-3ebb92d5d0d0.png" width="600" >
 
 # Screenshot from the app
 <div flexDirection='row'>
