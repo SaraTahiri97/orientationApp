@@ -12,6 +12,11 @@ and receive their notifications, with filtered search and bookmark option
 
 link to backend : 
 
+# App Architecture
+
+
+<img src="" width="200" >
+
 # Screenshot from the app
 <div flexDirection='row'>
 <img src="https://user-images.githubusercontent.com/32685586/128486997-76f15637-a40f-44a1-a584-f8896c2d27b2.jpeg" width="200" >
